@@ -736,6 +736,9 @@ nav {
 }
 
 @media (width < 600px) {
+  body {
+    overflow-x: hidden;
+  }
   .nav__links {
     display: none;
   }
