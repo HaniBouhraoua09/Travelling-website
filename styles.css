@@ -736,6 +736,9 @@ nav {
 }
 
 @media (width < 600px) {
+  html {
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
   }
